@@ -13,8 +13,7 @@ The conventional controller consists of four steps namely fuzzification, knowled
 
 An environment for the navigation of the robot is created in the VREP software for the simulation and performance of the robot in an object filled environment. The robot used for this purpose is Pioneer 3dx, a small lightweight two-wheel two motor differential drive robot ideal for indoor laboratory or classroom use. Further, three ultrasonic sensors are attached at the left, right and front parts of the robot to detect objects.
 
-<img src="Fuzzy_Collision_Avoidance/images/vrep.png" >
-![](images/vrep.png)
+![vrep](https://user-images.githubusercontent.com/60957986/74592543-d2e90300-503b-11ea-9921-f67a8458c821.PNG)
 
 The various fuzzy stages Iike suitable identification of input and output parameters aIong with linking them to the fuzzy based variables is carried out in the fuzzy logic controller and is implemented in Matlab using the fuzzy logic tooIbox. A Mamdani based controller with three inputs and two outputs is obtained with the inputs being the left, right and the front ultrasonic sensor and the outputs correspond to the velocity of the left and right motor. The membership function and the ranges for the input and output variables were assigned after various trials to get the accurate result. Further the rulebase for the reIation between the input, output and fuzzy variabIes is framed by using fuzzy ruIes and is created in the controller. The matlab file is linked with VREP scene by code and is thus executed and the result is noted.
 
