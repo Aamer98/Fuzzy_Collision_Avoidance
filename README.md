@@ -17,6 +17,9 @@ An environment for the navigation of the robot is created in the VREP software f
 
 The various fuzzy stages Iike suitable identification of input and output parameters aIong with linking them to the fuzzy based variables is carried out in the fuzzy logic controller and is implemented in Matlab using the fuzzy logic tooIbox. A Mamdani based controller with three inputs and two outputs is obtained with the inputs being the left, right and the front ultrasonic sensor and the outputs correspond to the velocity of the left and right motor. The membership function and the ranges for the input and output variables were assigned after various trials to get the accurate result. Further the rulebase for the reIation between the input, output and fuzzy variabIes is framed by using fuzzy ruIes and is created in the controller. The matlab file is linked with VREP scene by code and is thus executed and the result is noted.
 
+![fis](https://user-images.githubusercontent.com/60957986/74592570-0035b100-503c-11ea-9b92-35a51c479c97.PNG)
+
+
 # Result
 
 The created VREP scene with the robot was executed and it is observed that the robot could successfully avoid objects in its vicinity. Thus, the aim was achieved and the collision avoiding robot was simulated on software. This design allows the robot to navigate in an unknown environment by avoiding collisions, which is a primary requirement for any autonomous mobile robot.
